@@ -100,23 +100,31 @@ st.markdown(
         font-weight: 600;
         margin-bottom: 0.9rem;
       }
-      .src-card {
-        background: var(--daraz-surface);
-        border-left: 3px solid var(--daraz-orange);
-        border-radius: 6px;
-        padding: 0.6rem 0.85rem;
-        margin-bottom: 0.6rem;
-        font-size: 0.86rem;
-        line-height: 1.5;
-      }
-      .src-meta {
-        color: var(--daraz-orange-dark);
-        font-weight: 700;
-        font-size: 0.78rem;
-        text-transform: uppercase;
-        letter-spacing: 0.4px;
-      }
-      .src-id { color: var(--daraz-muted); font-weight: 500; text-transform: none; }
+      /* Source cards */
+.src-card {
+    background: var(--daraz-surface);
+    color: #1A1A1A;
+    border-left: 3px solid var(--daraz-orange);
+    border-radius: 6px;
+    padding: 0.6rem 0.85rem;
+    margin-bottom: 0.6rem;
+    font-size: 0.86rem;
+    line-height: 1.5;
+}
+
+.src-meta {
+    color: var(--daraz-orange-dark) !important;
+    font-weight: 700;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.src-id {
+    color: #6B7280 !important;
+    font-weight: 500;
+    text-transform: none;
+}
       .stButton > button {
         background: var(--daraz-orange); color: #fff; border: 0;
         border-radius: 8px; font-weight: 600;
