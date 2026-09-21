@@ -122,7 +122,9 @@ st.markdown(
         border-radius: 8px; font-weight: 600;
       }
       .stButton > button:hover { background: var(--daraz-orange-dark); color: #fff; }
-      [data-testid="stSidebar"] { background: #FAFAFA; }
+      [data-testid="stSidebar"] { background: #FAFAFA;}
+      [data-testid="stSidebar"] * { color: #1A1A1A; }
+      [data-testid="stSidebar"] .stCaption { color: #6B7280; }
       footer, #MainMenu { visibility: hidden; }
     </style>
     """,
