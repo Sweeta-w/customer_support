@@ -1,0 +1,17 @@
+# Daraz Customer-Support Operations Assistant — app runtime
+# Query-time only: loads a pre-built FAISS index, no PDF parsing here.
+
+streamlit>=1.40.0
+
+# LLM
+groq>=0.13.0
+
+# Vector store + retrieval
+faiss-cpu>=1.8.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+
+# Embeddings (must match the model used in ingest.py)
+langchain-huggingface>=0.1.2
+sentence-transformers>=3.0.0
+torch>=2.2.0
